@@ -81,6 +81,3 @@ def genModuleGraph(moduleName):
     graph.render("img/graph")
 
 if __name__ == "__main__":
-    for (key, values) in checkForSymbolConflicts(moduleName).iteritems():
-        if(len(values) > 1):
-            print key, " -> ", values
